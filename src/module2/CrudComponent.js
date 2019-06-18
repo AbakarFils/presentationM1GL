@@ -65,7 +65,8 @@ class CrudComponent extends Component {
 
     componentWillMount() {
         this.MakeRequestFromServerFetch();
-        this.MakeRequestFromServerAxios();
+       // this.MakeRequestFromServerAxios();
+
     }
 
     // les  operations CRUD
@@ -79,6 +80,14 @@ class CrudComponent extends Component {
 
      updateUser = (id, updatedUser) => {
         console.log("user", updatedUser);
+         edit(updatedUser)
+             .then(res=> {
+                 console.log("update", res);
+         },
+                 this.MakeRequestFromServerFetch()
+         ).catch(error => {
+             console.log("error", error);
+         })
     };
 
      editRow = user => {
