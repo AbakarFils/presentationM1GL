@@ -3397,7 +3397,6 @@
       <change afterPath="$PROJECT_DIR$/../immobilier/src/images/logo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../immobilier/src/images/user_female.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../immobilier/src/images/user_male.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module2/CrudComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Archives/looka_bo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Archives/looka_bo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Archives/yuxProjet/cocoji-web" beforeDir="false" afterPath="$PROJECT_DIR$/../../Archives/yuxProjet/cocoji-web" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LookaBackOffice" beforeDir="false" afterPath="$PROJECT_DIR$/../../LookaBackOffice" afterDir="false" />
@@ -3421,15 +3420,7 @@
       <change beforePath="$PROJECT_DIR$/../immobilier/src/component/userFonction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../immobilier/src/component/userFonction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../immobilier/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../immobilier/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../immobilier/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../immobilier/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forms/AddUserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/AddUserForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forms/EditUserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/EditUserForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/moduleSimple/Crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/module1/Crud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tables/UserTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tables/UserTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/CrudComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/CrudComponent.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -3457,7 +3448,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/forms/EditUserForm.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-20">
@@ -3525,11 +3516,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/module2/CrudComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+            <state relative-caret-position="236">
+              <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -3578,12 +3569,12 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/layout/layout.js" />
-        <option value="$PROJECT_DIR$/src/module2/CrudComponent.js" />
         <option value="$PROJECT_DIR$/src/services/UserService.js" />
         <option value="$PROJECT_DIR$/src/tables/UserTable.js" />
         <option value="$PROJECT_DIR$/src/module1/Crud.js" />
         <option value="$PROJECT_DIR$/src/forms/AddUserForm.js" />
         <option value="$PROJECT_DIR$/src/forms/EditUserForm.js" />
+        <option value="$PROJECT_DIR$/src/module2/CrudComponent.js" />
       </list>
     </option>
   </component>
@@ -3645,7 +3636,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560858840284" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560858947023" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -3681,12 +3672,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560799473725</updated>
-      <workItem from="1560799476069" duration="11347000" />
+      <workItem from="1560799476069" duration="11454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11347000" />
+    <option name="totallyTimeSpent" value="11454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -3784,16 +3775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module2/CrudComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/UserService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -3834,6 +3815,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-20">
           <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module2/CrudComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

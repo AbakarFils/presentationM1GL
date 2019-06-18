@@ -2,7 +2,7 @@ import React,  {Component, Fragment }  from  'react';
 import EditUserForm from "../forms/EditUserForm";
 import AddUserForm from "../forms/AddUserForm";
 import UserTable from "../tables/UserTable";
-import {getAll} from "../services/UserService";
+import {getAll, getById, edit,register} from "../services/UserService";
 
 class CrudComponent extends Component {
 
@@ -26,6 +26,7 @@ class CrudComponent extends Component {
             });
 
     }
+
     MakeRequestFromServerFetch() {
         try {
             fetch('api/users')
@@ -36,7 +37,7 @@ class CrudComponent extends Component {
                 })
                 .catch(error => {
                     console.log('error catch petit', error);
-                    this.setState({ users: { data: []}, loading: false, showDialog: true });
+                    this.setState({ users: { data: []}, loading: false });
                 });
         }
         catch (error) {
