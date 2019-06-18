@@ -3397,6 +3397,7 @@
       <change afterPath="$PROJECT_DIR$/../immobilier/src/images/logo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../immobilier/src/images/user_female.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../immobilier/src/images/user_male.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Archives/looka_bo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Archives/looka_bo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Archives/yuxProjet/cocoji-web" beforeDir="false" afterPath="$PROJECT_DIR$/../../Archives/yuxProjet/cocoji-web" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LookaBackOffice" beforeDir="false" afterPath="$PROJECT_DIR$/../../LookaBackOffice" afterDir="false" />
@@ -3420,7 +3421,12 @@
       <change beforePath="$PROJECT_DIR$/../immobilier/src/component/userFonction.js" beforeDir="false" afterPath="$PROJECT_DIR$/../immobilier/src/component/userFonction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../immobilier/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../immobilier/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../immobilier/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../immobilier/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/AddUserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/AddUserForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/forms/EditUserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/EditUserForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module2/CrudComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/CrudComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/UserService.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -3442,8 +3448,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/forms/AddUserForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="235">
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -3451,8 +3457,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/forms/EditUserForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="205">
+              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -3481,10 +3487,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/UserService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="-37">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               <folding>
-                <element signature="e#347#752#0" />
                 <element signature="e#781#986#0" />
                 <element signature="e#790#798#0" />
               </folding>
@@ -3495,8 +3500,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layout/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+            <state relative-caret-position="95">
+              <caret line="7" column="76" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="76" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -3507,8 +3512,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/module1/Crud.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="40" column="85" lean-forward="true" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
+            <state relative-caret-position="146">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -3519,8 +3524,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/module2/CrudComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+            <state relative-caret-position="-278">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -3568,12 +3573,12 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/layout/layout.js" />
-        <option value="$PROJECT_DIR$/src/services/UserService.js" />
         <option value="$PROJECT_DIR$/src/tables/UserTable.js" />
         <option value="$PROJECT_DIR$/src/module1/Crud.js" />
+        <option value="$PROJECT_DIR$/src/layout/layout.js" />
         <option value="$PROJECT_DIR$/src/forms/AddUserForm.js" />
         <option value="$PROJECT_DIR$/src/forms/EditUserForm.js" />
+        <option value="$PROJECT_DIR$/src/services/UserService.js" />
         <option value="$PROJECT_DIR$/src/module2/CrudComponent.js" />
       </list>
     </option>
@@ -3613,18 +3618,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="module2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="presentation M1GL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="presentation M1GL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="presentation M1GL" type="b2602c69:ProjectViewProjectNode" />
-              <item name="presentation M1GL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tables" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -3636,7 +3629,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560858947023" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560864379529" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -3672,12 +3665,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560799473725</updated>
-      <workItem from="1560799476069" duration="11454000" />
+      <workItem from="1560799476069" duration="15654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11454000" />
+    <option name="totallyTimeSpent" value="15654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -3765,28 +3758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/UserService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding>
-            <element signature="e#347#752#0" />
-            <element signature="e#781#986#0" />
-            <element signature="e#790#798#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tables/UserTable.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -3796,32 +3767,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/module1/Crud.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="40" column="85" lean-forward="true" selection-start-line="40" selection-start-column="85" selection-end-line="40" selection-end-column="85" />
+        <state relative-caret-position="146">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/forms/AddUserForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="235">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/forms/EditUserForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="205">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/UserService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#781#986#0" />
+            <element signature="e#790#798#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/module2/CrudComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+        <state relative-caret-position="-278">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>

@@ -1,10 +1,18 @@
 import axios from 'axios';
 
-export const register = newUSer => {
+/**
+ * cette methode va enyoer un new user
+ * au service et sera inserer dans la
+ * base de donnée
+ * @param newUSer
+ * @returns {Promise<AxiosResponse<T> | never>}
+ */
+export const save = newUSer => {
     return axios.post('api/register', {newUSer}, {
         headers : {'Content-Type' : 'application-json'}
     })
         .then(res => {
+            return res;
             console.log(res);
         })
         .catch(error => {
@@ -12,22 +20,27 @@ export const register = newUSer => {
         })
 };
 
+/**
+ * methode pour mettre
+ * à jour un utilisateur en base
+ * @param user
+ * @returns {Promise<AxiosResponse<T> | never>}
+ */
 export const edit = user => {
-    return axios.put('api/authenticate', {
-        username: user.email,
-        password: user.password,
-        rememberMe: true
+    return axios.put('api/user', {
+        user
     }, {
         headers : {'Content-Type' : 'application-json'}
     })
         .then(res => {
-            localStorage.setItem('userToken', res.data.token);
-            console.log(res);
+            return res;
         })
         .catch(error => {
+            return ;
             console.log(error);
         })
 };
+
 //ou params{id:user.id}
 export const getById = user => {
     return  axios.get('api/users/?id=' + user.id)
@@ -41,7 +54,6 @@ export const getAll =  () => {
     return  axios.get('api/users')
         .then(function(response) {
             return response.data;
-
         });
 }
 

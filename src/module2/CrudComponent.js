@@ -2,7 +2,7 @@ import React,  {Component, Fragment }  from  'react';
 import EditUserForm from "../forms/EditUserForm";
 import AddUserForm from "../forms/AddUserForm";
 import UserTable from "../tables/UserTable";
-import {getAll, getById, edit,register} from "../services/UserService";
+import {getAll, getById, edit,save} from "../services/UserService";
 
 class CrudComponent extends Component {
 
@@ -14,9 +14,16 @@ class CrudComponent extends Component {
            currentUser:null,
            editing: false
        }
+      this.setEditing= ()=>(false);
     }
 
-    MakeRequestFromServerAxios(){
+    /**
+     * une methode qui va chercher les données depuis u
+     * une application back-end
+     * utilisant axios
+     *
+     */
+    MakeRequestFromServerAxios() {
         getAll()
             .then(res => {
                 console.log('Reponse du serveur using Axios', res);
@@ -27,10 +34,16 @@ class CrudComponent extends Component {
 
     }
 
+    /**
+     * une methode qui va chercher les données depuis u
+     * une application back-end
+     * utilisant Fetch
+     *
+     */
     MakeRequestFromServerFetch() {
         try {
             fetch('api/users')
-                .then((res) => res.json())
+                .then((res) => res.json()) // si tout ce passe bien
                 .then(res => {
                     console.log('Reponse du serveur', res);
                     this.setState({users: res, loading: false})
@@ -65,15 +78,17 @@ class CrudComponent extends Component {
     };
 
      updateUser = (id, updatedUser) => {
-
+        console.log("user", updatedUser);
     };
 
      editRow = user => {
-
+         this.setEditing(true);
+        this.setState({
+            editing: true,
+            currentUser:user
+        });
     };
-    setEditing =() => {
 
-    };
     render() {
         return (
             <div className="container">
