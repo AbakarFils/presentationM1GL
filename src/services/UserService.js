@@ -38,10 +38,10 @@ export const getById = user => {
 }
 
 export const getAll =  () => {
-    return  axios.get('api/users/')
-        .then(function(response){
-            console.log(response.data);
-            console.log(response.status); // ex.: 200
+    return  axios.get('api/users')
+        .then(function(response) {
+            return response.data;
+
         });
 }
 

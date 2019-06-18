@@ -12,9 +12,9 @@ const EditUserForm = props => {
   // Vous pouvez demander à React d’ignorer l’application d’un effet si certaines valeurs n’ont pas changé entre les rendus. [accessoires] (props)
 
   const handleInputChange = event => {
-    const { name, value } = event.target
+    const { firstName, value } = event.target
 
-    setUser({ ...user, [name]: value })
+    setUser({ ...user, [firstName]: value })
   }
 
   return (
@@ -26,9 +26,9 @@ const EditUserForm = props => {
       }}
     >
       <label>Name</label>
-      <input type="text" name="name" value={user.name} onChange={handleInputChange} />
+      <input type="text" name="name" value={user.firstName} onChange={handleInputChange} />
       <label>Username</label>
-      <input type="text" name="username" value={user.username} onChange={handleInputChange} />
+      <input type="text" name="username" value={user.email} onChange={handleInputChange} />
       <button>Update user</button>
       <button onClick={() => props.setEditing(false)} className="button muted-button">
         Cancel

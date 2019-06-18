@@ -6,12 +6,12 @@ import UserTable from '../tables/UserTable';
 const Crud = () => {
     // Donnée
     const usersData = [
-        { id: 1, name: 'Abakar', username: 'Mahamat' },
-        { id: 2, name: 'Tony', username: 'Larson' },
-        { id: 3, name: 'Adja', username: 'Oulimata' },
+        { id: 1, firstName: 'Abakar', email: 'Mahamat' },
+        { id: 2, firstName: 'Tony', email: 'Larson' },
+        { id: 3, firstName: 'Adja', email: 'Oulimata' },
     ]
 
-    const initialFormState = { id: null, name: '', username: '' }
+    const initialFormState = { id: null, firstName: '', email: '' }
 
     // afectation des objects
     const [ users, setUsers ] = useState(usersData)
@@ -38,7 +38,7 @@ const Crud = () => {
 
     const editRow = user => {
         setEditing(true)
-        setCurrentUser({ id: user.id, name: user.name, username: user.username })
+        setCurrentUser({ id: user.id, firstName: user.firstName, email: user.email })
     }
 
     return (
